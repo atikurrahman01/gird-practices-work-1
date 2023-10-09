@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main-wraper {
+    background-color: #e1e782d0;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-row: 100px 1fr 100px;
+
+}
+
+.header {
+    background-color: #b3e9aba6;
+    grid-column: 1/-1;
+
+}
+
+.sideber {
+    background-color: #cf0f0f9c;
+    grid-column: 1/4;
+
+
+}
+
+
+
+.main-content {
+    background-color: #e9bbbb8a;
+    grid-column: 4/-1;
+
+}
+
+.footer {
+    background-color: #756969b6;
+    grid-column: 1/-1;
+
+}
