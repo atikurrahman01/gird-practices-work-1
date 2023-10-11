@@ -14,6 +14,7 @@
 .header {
     background-color: #b3e9aba6;
     grid-column: 1/-1;
+    padding: 1%;
 
 }
 
@@ -35,5 +36,31 @@
 .footer {
     background-color: #756969b6;
     grid-column: 1/-1;
+    padding: 1%;
 
+}
+
+
+@media screen and (max-width: 768px) {
+    .main-wraper {
+        grid-template-columns: repeat(12, 1fr);
+        grid-row: 100px 1fr 100px 200px;
+    }
+
+    .header {
+        grid-column: 1/-1;
+    }
+
+    .sideber {
+        grid-column: 1/-1;
+        padding: 1%;
+    }
+
+    .main-content {
+        grid-column: 1/-1;
+    }
+
+    .footer {
+        grid-column: 1/-1;
+    }
 }
